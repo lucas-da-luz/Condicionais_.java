@@ -17,7 +17,7 @@ public class imc_condicional {
         System.out.println("insira sua altura:");
         altura = scan.nextDouble();
 
-        imc = peso/altura;
+        imc = peso/(altura*altura);
 
         if (20 > imc) {
             System.out.println(seuIMC + "Abaixo");
